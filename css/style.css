@@ -1,0 +1,808 @@
+* {
+    margin: auto;
+    padding: auto;
+}
+
+:root {
+ --principal-titulos: #fff;
+ --principal-header: #F61520;
+ --amarillo-claro: #F9E79F;
+--suave: #F2C282;
+--negro: #000;
+
+--alisson: 'Allison', cursive;
+--amatic: 'Amatic SC', cursive;
+--caveat: 'Caveat', cursive;
+--gothic: 'Didact Gothic', sans-serif;
+--palanquin: 'Palanquin', sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+
+/** Globales **/
+body {
+
+    line-height: 1.5rem;
+}
+
+h1 {
+    font-size: 3.8rem;
+    color: var(--amarillo-claro);
+    font-family: var(--caveat);
+}
+
+h2 {
+    font-size: 3.4rem;
+    color: var(--amarillo-claro);
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+/** header **/
+
+.cabeza-principal {
+    background-color: var(--principal-header);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+   
+}
+
+
+/** navegacion **/
+
+.navegacion {
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: var(--principal-titulos);
+    font-size: 2.7rem;
+    font-family: var(--gothic);
+}
+
+@media (min-width: 360px) {
+     .navegacion {
+         font-size: 1rem;
+     }
+}
+
+.navegacion:hover{
+    color: var(--amarillo-claro);
+}
+
+@media (min-width: 768px ) {
+     .navegacion {
+         margin: 30px;
+     }
+}
+
+/** imagen-main**/
+
+.encabezado-header {
+    background-color: var(--segundo);
+    padding: 10rem 0rem;
+}
+
+.inicio {
+    background-image: url(imagenes/pexels-photo-3581878.jpeg);
+    background-repeat: no-repeat;
+    background-image: cover;
+    background-position: center center;
+    height: 160vh;
+    min-height: 60rem;
+    background-size:cover;
+   
+}
+
+
+.contenedor {
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+
+.contenedor-texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+.boton1:hover {
+    background-color: var(--amarillo-claro);
+}
+
+
+
+
+/** responsive- design **/
+
+
+.bienvenida {
+    font-size: 8.4rem;
+    color: var(--amarillo-claro);
+    font-family: var(--alisson);
+}
+
+@media (min-width: 360px) {
+    .bienvenida {
+        font-size: 6rem;
+    }
+}
+
+@media (min-width: 768px ) {
+     .bienvenida {
+        font-size: 6.4rem;
+     }
+}
+
+
+/** botonprincipal**/
+
+
+
+
+
+
+@media (min-width: 360px) {
+    .titulo-inicial {
+        font-size: 2.5rem;
+    }
+
+/** seccion grid **/
+
+.botom2 {
+    background-color: var(--principal-header);
+    min-width: 30rem;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.titulo2 {
+    font-size: 2.7rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (min-width: 1440px) {
+    .titulo2 {
+        margin-right: 85rem;
+    }
+     
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr );
+    gap: 2rem;
+}
+
+
+@media (min-width: 500px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+     
+}
+
+@media (min-width: 770px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+     
+}
+
+@media (min-width: 1192px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+     
+}
+
+
+
+.informacion {
+    padding: 1rem;
+  }
+
+
+/** imagenes de pizzas **/
+
+.imagenes-pizzas {
+    background-color: var(--suave);
+}
+
+@media (min-width:700px) {
+    .imagenes-pizzas {
+        padding: 17px;
+    }
+     
+}
+
+.pizzas-producto {
+    min-width: 350px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+
+ 
+ 
+
+
+/** textos **/
+
+.nombre {
+  margin: 0 0 1rem 0;
+  font-family: var(--caveat);
+  font-size: 1.9rem;
+}
+
+.Precio {
+  margin: 0 0 2rem 0;
+  font-family: var(--gothic);
+  font-size: 1.2rem;
+}
+
+.textin {
+    font-size: 1rem;
+    line-height: 2.1rem;
+    font-family: var(--palanquin);
+}
+
+
+
+
+
+/** Imagen chicas-textos **/
+
+.contenedorfake1 {
+    background-color: var(--segundo);
+    padding: 10rem 0rem;
+}
+
+.imagenfake1 {
+    background-image: url(imagenes/pexels-koolshooters-7142964.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-image: cover;
+    background-repeat: no-repeat;
+    height: 160vh;
+    min-height: 60rem;
+}
+
+
+
+.contenedortexto-pizza {
+    display: flex;
+    flex-direction: column;
+    gap: 23rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.texto-pizzas {
+    font-size:7.2rem;
+    color: var(--amarillo-claro);
+    font-family: var(--alisson);
+}
+
+/** responsive desing **/
+
+@media (min-width: 360px) {
+    .texto-pizzas {
+        font-size: 5.5rem;
+    }
+    
+}
+@media (min-width: 768px) {
+     .texto-pizzas {
+         font-size: 6.9rem;
+     }
+}
+
+.texto-pizza1 {
+    font-size: 3rem;
+    color: var(--principal-titulos);
+    font-family: var(--amatic);
+}
+
+@media (min-width: 360px) {
+     .texto-pizza1 {
+         font-size: 2.5rem;
+     }
+}
+@media (min-width: 768px) {
+     .texto-pizza1  {
+         font-size:5rem;
+     }
+}
+
+.texto-pizzas2 {
+    font-size: 4rem;
+    color: var(--principal-header);
+    font-family: var(--caveat);
+}
+
+@media (min-width: 360px) {
+     .texto-pizzas2 {
+         font-size: 3.2rem;
+     }
+}
+
+@media (min-width: 768px) {
+    .texto-pizzas2 {
+        font-size: 7rem;
+    }
+}
+
+/** sucursales **/
+
+.contenedorfake {
+    background-color: var(--segundo);
+    padding: 10rem 0rem;
+}
+
+.imagenfake {
+    background-image: url(imagenes/pexels-photo-2914550.jpeg);
+    background-size: cover;
+    background-image: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 16vh;
+    min-height: 80rem;
+}
+
+
+
+.texto-sucursales {
+    font-size: 2rem;
+    font-family: var(--caveat);
+    color: var(--principal-titulos);
+}
+
+.titulo-sucursales {
+    text-align: center;
+    font-size: 4.2rem;
+    color: var(--amarillo-claro);
+    margin: 0 0 12rem 0;
+    font-family: var(--caveat);
+} 
+
+/** responsive desing **/
+
+@media (min-width: 346px) {
+    .titulo-sucursales {
+        font-size: 3.3rem;
+    }
+     
+}
+
+@media (min-width: 576px) {
+    .titulo-sucursales {
+        font-size: 4.5rem;
+    }  
+}  
+
+@media (min-width: 768px) {
+   .titulo-sucursales {
+       font-size: 6.8rem;
+   }  
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
+    row-gap: 7rem;
+}
+
+.iconos-svg {
+    background-color: var(--principal-header);
+    width: 10rem;
+}
+
+/** footer **/
+
+.footer {
+    background-color: var(--principal-header);
+    padding: 7rem 0 0 0;
+}
+
+.parrafo-footer {
+    font-size: 1.5rem;
+    color: var(--amarillo-claro);
+    margin: 0 0 5rem 0;
+}
+
+@media (min-width: 768px) {
+    .parrafo-footer {
+        font-size: 2.5rem;
+    } 
+}
+
+.iconos-rows {
+    display: flex;
+    flex-direction: row;
+    row-gap: 5rem;
+}
+
+/** Seccion catalogo **/
+
+.caja {
+    background-color: var(--segundo);
+    padding: 10rem 0rem;
+}
+
+
+.pick {
+    background-image: url(imagenes/pexels-photo-3581878.jpeg);
+    background-repeat: no-repeat;
+    background-image: cover;
+    background-position: center center;
+    height: 160vh;
+    min-height: 60rem;
+    background-size:cover;
+   
+}
+
+
+.globodeimagen{
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.textocatologo {
+    font-size: 6rem;
+    font-family: var(--alisson);
+    color: var(--amarillo-claro);
+}
+
+.titulopizza {
+    font-size: 2.7rem;
+    font-family: var(--gothic);
+    color: var(--suave);
+    margin: 12px 0 0 0;
+}
+
+.container {
+     width: 100%;
+     max-width: 1200px;
+     height: 430px;
+     display:flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     margin: auto;
+}
+
+.container .card {
+    width: 330px;
+    height:430px;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px rgba(155, 113, 113, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.container .card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container .card img {
+    width: 330px;
+    height: 220px;
+}
+
+.container .card h4 {
+    font-size: 2.8rem;
+    font-family: var(--gothic);
+    color: var(--principal-header); 
+    margin: 10px;
+}
+
+.container .card p {
+    font-size: 1.8rem;
+    font-family: var(--palanquin);
+    line-height: 2.2rem;
+    padding: 0 1rem;
+    margin:0 0 12px 0;
+
+}
+
+.container .card a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: var(--suave);
+    background-color: var(--principal-header);
+    width: 250%;
+    border-radius: 8px;
+}
+
+.faina {
+    text-align:center;
+    font-size: 2.7rem;
+    font-family: var(--gothic);
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.container .card {
+    width: 330px;
+    height:430px;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px rgba(155, 113, 113, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.container .card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container .card img {
+    width: 330px;
+    height: 220px;
+}
+
+.container .card h4 {
+    font-size: 2.8rem;
+    font-family: var(--gothic);
+    color: var(--principal-header); 
+    margin: 10px;
+}
+
+.container .card p {
+    font-size: 1.8rem;
+    font-family: var(--palanquin);
+    line-height: 2.2rem;
+    padding: 0 1rem;
+    margin:0 0 12px 0;
+
+}
+
+.container .card a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: var(--suave);
+    background-color: var(--principal-header);
+    width: 250%;
+    border-radius: 8px;
+}
+
+.barradepaginas {
+    margin: 20px 0;
+}
+
+.barradepaginas ul {
+    text-decoration: none;
+    text-align: center;
+}
+
+.barradepaginas ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+@media  (min-width: 360px) {
+    .barradepaginas ul li {
+         margin-top: 2400px;
+    }
+}
+
+@media (min-width: 700px) {
+    .barradepaginas ul li {
+        margin-top: 2400px;
+    }
+     
+}
+
+@media (min-width: 723px) {
+   .barradepaginas ul li {
+       margin-top: 2400px;
+   }
+}
+
+@media (min-width: 740px) {
+    .barradepaginas ul li {
+        margin-top: 980px;
+    }
+     
+}
+
+
+@media (min-width: 768px) {
+    .barradepaginas ul li {
+        margin-top: 960px;
+    } 
+}
+
+
+@media (min-width: 1110px) {
+    .barradepaginas ul li {
+        margin-top: 500px;
+    }
+     
+}
+
+.barradepaginas ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: var(--principal-header);
+    font-size: 1.2rem;
+}
+
+.barradepaginas ul li a:hover {
+    background-color: #f61529;
+}
+
+/** formulario **/
+.contenedorformulario {
+    margin: 0;
+    background-color: var(--suave);
+    height: 700px;
+    display: flex;
+    
+}
+
+
+.contenedorcorreoimagen {
+    background-image: url(../kisspng-email-computer-icons-message-bounce-address-email-icon-5ac24c369ca033.5563588615226829346416.png);
+    height: 100%;
+    width: 100%;
+    background-image: cover cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formulario1 {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form_input {
+    background-color: var(--principal-header);
+    width: 150px;
+    height: 100px;
+    font-size: 2rem;
+    font-family: var(--caveat);
+    color: var(--principal-titulos);
+    resize: none;
+    background: transparent;
+    border: none;
+}
+
+.form_input:hover {
+    background-color: #f5192c;
+}
+
+.form12 {
+    text-decoration: none;
+    background-color: var(--principal-header);
+    text-decoration: none;
+    width: 150px;
+    margin-top: 50px;
+    font-size: 2rem;
+    font-family: var(--caveat);
+    color: var(--principal-titulos);
+    border: none;
+    resize: none;
+    background: transparent;
+    
+}
+
+.form12:hover {
+    background-color: #f5192c;
+}
+
+.form13 {
+    text-decoration: none;
+    background-color: var(--principal-header);
+    text-decoration: none;
+    margin-top: 20px;
+    min-height: 30px;
+    color: var(--principal-titulos);
+    font-size: 2rem;
+    font-family: var(--caveat);
+    border: none;
+}
+
+.form13:hover {
+    background-color: #f5192c;
+}
+ 
+
+
+
+.titulo2 {
+  font-family: var(--caveat);
+  font-size: 3rem;
+}
+
+/** placeholder **/
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: var(--principal-titulos);
+    }
+    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: var(--principal-titulos);
+    }
+    ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: var(--principal-titulos);
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: var(--principal-titulos);
+    }
+    

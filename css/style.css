@@ -336,7 +336,7 @@ p {
 
 @media (min-width: 360px) {
     .texto-pizzas {
-        font-size: 5.5rem;
+        font-size: 6.5rem;
     }
     
 }
@@ -499,7 +499,7 @@ p {
 }
 
 .textocatologo {
-    font-size: 6rem;
+    font-size: 5.2rem;
     font-family: var(--alisson);
     color: var(--amarillo-claro);
 }
@@ -659,8 +659,14 @@ p {
 
 @media (min-width: 723px) {
    .barradepaginas ul li {
-       margin-top: 2400px;
+       margin-top: 1200px;
    }
+}
+
+@media (min-width: 725px) {
+     .barradepaginas ul li {
+         margin-top: 2400px;
+     }
 }
 
 @media (min-width: 740px) {
@@ -676,6 +682,7 @@ p {
         margin-top: 960px;
     } 
 }
+
 
 
 @media (min-width: 1110px) {
